@@ -10,7 +10,7 @@ My first github pages
 ###### 六级标题
  *注：#和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。*
 # 二、列表   
-*列表格式也很常用，在 Markdown 中，你只需要在文字前面加上 - 就可以了，例如： *
+* 列表格式也很常用，在 Markdown 中，你只需要在文字前面加上 - 就可以了，例如： *
 - 文本1
 - 文本2
 - 文本3
@@ -25,11 +25,15 @@ My first github pages
 [简书](http://www.jianshu.com)
 # 四、图片
 在 Markdown 中，插入图片不需要其他按钮，你只需要使用
+
 ` ![](图片链接地址) 这样的语法即可，例如： `
 ` ![图片测试](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg "Optional title") `
 ** 效果如下 **
+
 ![图片测试](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg "Optional title")
-*图片加链接如下格式：*
+
+* 图片加链接如下格式：*
+
 `[![图片测试](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg)](http://www.jianshu.com)`
 [![图片测试](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg)](http://www.jianshu.com)
 # 五、引用
@@ -49,6 +53,7 @@ My first github pages
 **简书**
 # 七、代码引用
 需要引用代码时，如果引用的语句只有一段，不分行，可以用 ` 将语句包起来。如果引用的语句为多行，可以将```置于这段代码的首行和末行。
+
 ** 示例1： **           
 
 ` \`Hello World\` `
