@@ -19,8 +19,8 @@ owner:
   bio: "你的博客描述" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/moon.jpg # 浏览器地址栏小图标，可自定义更改
-favicon: img/moon.jpg # 浏览器地址栏小图标，可自定义更改
+gavatar: img/moon.ico # 浏览器地址栏小图标，可自定义更改
+favicon: img/moon.ico # 浏览器地址栏小图标，可自定义更改
 
 # SNS settings
 RSS: false
