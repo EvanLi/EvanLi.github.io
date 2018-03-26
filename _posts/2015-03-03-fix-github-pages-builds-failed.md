@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
-date: 2015-3-02
+title: Github pages构建失败问题解决
+date: 2015-3-03
 categories: blog
-tags: [建站]
-description: 文章金句。
+tags: [建站,Github]
+description: Github pages构建失败问题解决：The page build failed with the following error: page build failed
 ---
 
 ## [github pages构建失败问题解决](http://blog.xiayf.cn/2013/01/08/fix-github-pages-builds-failed/)
