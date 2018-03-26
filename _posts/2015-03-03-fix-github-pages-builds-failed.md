@@ -1,3 +1,12 @@
+---
+layout: post
+title: 这是一篇博客文章模板
+date: 2015-3-02
+categories: blog
+tags: [建站]
+description: 文章金句。
+---
+
 ## [github pages构建失败问题解决](http://blog.xiayf.cn/2013/01/08/fix-github-pages-builds-failed/)
 
 2013-01-08 TueBy [youngsterxyf](http://blog.xiayf.cn/author/youngsterxyf.html)
