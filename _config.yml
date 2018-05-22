@@ -1,11 +1,11 @@
 # Site settings
 title: My Blog # 你的博客名字，可以定义修订
-SEOTitle: 我的博客 | My Blog        #显示在浏览器上搜索的时候显示的标题
+SEOTitle: 我的博客 | Blog        #显示在浏览器上搜索的时候显示的标题
 header-img: "img/zhihu.jpg"
 tagline: "cn"
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
-url: "http://lizhiyuan.me"  # 此处填写你的博客地址
+url: ""  # 此处填写你的博客地址
 
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
@@ -14,7 +14,7 @@ sidebar-avatar: /img/avatar-dog.jpg      # 个人头像
 
 # About/contact
 owner:
-  name: "作者名字" # 填写作者信息：名字
+  name: "EvanLi" # 填写作者信息：名字
   email: X@gmail.com # 填写作者信息：邮箱
   bio: "你的博客描述" # 填写作者信息：博客描述
 
@@ -26,7 +26,7 @@ favicon: img/favicon.ico # 浏览器地址栏小图标，可自定义更改
 RSS: false
 douban_username:    # 你的豆瓣id
 twitter_username:   # 推特用户名
-github_username:    # github用户名
+github_username: EvanLi # github用户名
 facebook_username:  # facebook用户名
 weibo_username:     # 微博用户名
 zhihu_username:     # 知乎用户名
@@ -51,7 +51,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "你的名字" # 你的名字
+      author: "EvanLi" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments
@@ -81,9 +81,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "LiZhiyuan",
-        href: "http://lizhiyuan.me/"
-    },{
         title: "Hux Blog",
         href: "https://huangxuan.me/"
     }
