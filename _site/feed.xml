@@ -5,8 +5,8 @@
     <description>这是我的博客</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 May 2018 12:46:09 +0800</pubDate>
-    <lastBuildDate>Wed, 23 May 2018 12:46:09 +0800</lastBuildDate>
+    <pubDate>Wed, 23 May 2018 14:06:13 +0800</pubDate>
+    <lastBuildDate>Wed, 23 May 2018 14:06:13 +0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -20,8 +20,22 @@ categories: blog
 tags: [标签一,标签二]
 description: 文章金句。
 ---
-这里是博客正文
+这里是博客正文(markdown格式)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;具体说明&quot;&gt;具体说明&lt;/h1&gt;
+&lt;p&gt;layout: 模板&lt;/p&gt;
+
+&lt;p&gt;date：日期，格式为 Year-Month-Date&lt;/p&gt;
+
+&lt;p&gt;categories：内容&lt;/p&gt;
+
+&lt;p&gt;tags：标签，用方括号包括，用逗号分隔&lt;/p&gt;
+
+&lt;p&gt;description：文章描述&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Mon, 02 Mar 2015 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2015/03/02/how-to-write/</link>
