@@ -26,7 +26,7 @@
 
                     {% if site.github_username %}
                     <li>
-                        <a href="https://github.com/{{ site.github_username }}">
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -34,7 +34,7 @@
                         </a>
                     </li>
                     {% endif %}
-                    
+
                     <!--
                     {% if site.douban_username %}
                     <li>
@@ -85,7 +85,15 @@
                     -->
 
                 </ul>
+
                 <p class="copyright text-muted">
+                    <span id="busuanzi_container_site_pv" style='display:none'>本站总访问量<span id="busuanzi_value_site_pv"></span>次
+                    </span>
+                    <span id="busuanzi_container_site_uv" style='display:none'>您是本站第<span id="busuanzi_value_site_uv"></span>位访客
+                    </span>
+                </p>
+
+                <p class="copyright text-muted" style="margin: 0;">
                 &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by Jekyll.
                 </p>
             </div>
