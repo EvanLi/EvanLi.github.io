@@ -1,5 +1,5 @@
 # Site settings
-title: My Blog # 你的博客名字，可以定义修订
+title: EvanLi # 你的博客名字，可以定义修订
 SEOTitle: 我的博客 | Blog        #显示在浏览器上搜索的时候显示的标题
 header-img: "img/zhihu.jpg"
 tagline: "cn"
@@ -9,8 +9,8 @@ url: ""  # 此处填写你的博客地址
 
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
-sidebar-about-description: "说点装逼的话。。。"
-sidebar-avatar: /img/avatar-dog.jpg      # 个人头像
+sidebar-about-description: "EvanLi's blog."
+sidebar-avatar: /img/favicon.gif      # 个人头像
 
 # About/contact
 owner:
