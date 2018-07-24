@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Tags"
-description: "哈哈，你找到了我的文章基因库"  
-header-img: "img/semantic.jpg"  
+description: "哈哈，你找到了我的文章基因库"
+header-img: "img/semantic.jpg"
 ---
 
 ## 本页使用方法
@@ -14,26 +14,30 @@ header-img: "img/semantic.jpg"
 
 ## 基因列表
 
-
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+{% for post in tag[1] %}{% if post.categories contains 'blog' %}
+	<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+{% endif %}{% endfor %}
 {% endfor %}
 </div>
 
+
 <ul class="listing">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
-{% for post in tag[1] %}
-  <li class="listing-item">
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
+	{% for post in tag[1] %}{% if post.categories contains 'blog' %}
+  		<li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+  	{% endif %}{% endfor %}
+	{% for post in tag[1] %}{% if post.categories contains 'blog' %}
+		<li class="listing-item">
+		<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endif %}{% endfor %}
 {% endfor %}
 </ul>
 
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
