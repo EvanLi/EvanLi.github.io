@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 添加MathJax
-date: 2018-7-24
+date: 2015-3-01
 categories: note
 tags: [Latex,Jekyll]
 description: Jekyll中使用MathJax
@@ -30,7 +30,7 @@ gem install kramdown
 
 kramdown是一个Markdown解析器，它能够正确解释公式内部的符号，不会与Markdown语法冲突，比如不会将`^`符号变成`<sup></sup>`标签。
 
-## 第二步，在header中添加引用和设置代码。
+## 第二步，在header中添加引用和设置代码
 
 也就是`_include/header.html`中添加以下两行代码：
 
