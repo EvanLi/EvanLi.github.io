@@ -76,7 +76,12 @@ C:\Program Files\Java\jre1.8.0_181
 
 **作用：**它指向jdk的安装目录，Eclipse/NetBeans/Tomcat等软件就是通过搜索JAVA_HOME变量来找到并使用安装好的jdk。
 
-**配置方法：**在系统变量里点击新建，变量名填写`JAVA_HOME`，变量值填写JDK的安装路径（根据自己的安装路径填写）,比如: `C:\Program Files\Java\jdk1.8.0_181`
+**配置方法：**在系统变量里点击新建，变量名填写`JAVA_HOME`，变量值填写JDK的安装路径（根据自己的安装路径填写）,比如: 
+
+```
+C:\Program Files\Java\jdk1.8.0_181
+```
+
 ![java-set2-1-1](/img/20180808/java-set-javahome.jpg)
 
 ### 2.2创建系统变量CLASSPATH
@@ -85,7 +90,11 @@ C:\Program Files\Java\jre1.8.0_181
 我们需要把jdk安装目录下的lib子目录中的dt.jar和tools.jar设置到CLASSPATH中，当然，当前目录“.”也必须加入到该变量中。
 
 **配置方法：**在系统变量里点击新建，变量名填写`CLASSPATH`，变量值是
-`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
+
+```
+.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+```
+
 
 ![java-set2-2-1](/img/20180808/java-set-classpath.jpg)
 
@@ -93,7 +102,13 @@ C:\Program Files\Java\jre1.8.0_181
 
 **作用：**指定命令搜索路径，在命令行下面执行命令如javac编译java程序时，它会到PATH变量所指定的路径中查找看是否能找到相应的命令程序。我们需要把jdk安装目录下的bin目录增加到现有的PATH变量中，bin目录中包含经常要用到的可执行文件如javac/java/javadoc等待，设置好PATH变量后，就可以在任何目录下执行javac/java等工具了。
 
-**配置方法：**在系统变量里找到Path变量，这是系统自带的，不用新建。双击Path，由于原来的变量值已经存在，故应在已有的变量后加上`;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin`。注意前面的分号。
+**配置方法：**在系统变量里找到Path变量，这是系统自带的，不用新建。双击Path，由于原来的变量值已经存在，故应在已有的变量后加上
+
+```
+;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+```
+
+注意前面的分号。
 
 ![java-set2-3-1](/img/20180808/java-set-path.jpg)
 
@@ -101,11 +116,15 @@ C:\Program Files\Java\jre1.8.0_181
 
 **因此，加上的分别是：**
 
-`C:\Program Files\Java\jdk1.8.0_181\bin`
+```
+C:\Program Files\Java\jdk1.8.0_181\bin
+```
 
 和
 
-`C:\Program Files\Java\jdk1.8.0_181\jre\bin`
+```
+C:\Program Files\Java\jdk1.8.0_181\jre\bin
+```
 
 如图所示：
 
@@ -134,12 +153,23 @@ C:\Program Files\Java\jre1.8.0_181
 
 **环境变量：**
 
+`JAVA_HOME`：
 
-`JAVA_HOME`：`C:\Program Files\Java\jdk1.8.0_181`
+```
+C:\Program Files\Java\jdk1.8.0_181
+```
 
-`CLASSPATH`：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
+`CLASSPATH`：
 
-`Path`：`C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;`
+```
+.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+```
+
+`Path`：
+
+```
+C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;
+```
 
 
 **测试：**
