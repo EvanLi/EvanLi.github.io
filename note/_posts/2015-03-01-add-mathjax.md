@@ -3,7 +3,7 @@ layout: post
 title: 添加MathJax
 date: 2015-3-01
 categories: note
-tags: [Latex,Jekyll]
+tags: [latex,Jekyll]
 description: Jekyll中使用MathJax
 ---
 
