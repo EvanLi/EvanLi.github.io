@@ -85,3 +85,7 @@ friends: [
         href: "https://huangxuan.me/"
     }
 ]
+
+
+# Gems
+gems: [jekyll-paginate]
