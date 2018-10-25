@@ -1,9 +1,9 @@
 # Site settings
-title: EvanLi # 你的博客名字，可以定义修订
+title: EvanLi的个人博客 # 你的博客名字，可以定义修订
 SEOTitle: 我的博客 | Blog        #显示在浏览器上搜索的时候显示的标题
 header-img: "img/zhihu.jpg"
 tagline: "cn"
-description: "这是我的博客"  # 一句话描述你的博客
+description: "这是我的个人博客"  # 一句话描述你的博客
 baseurl: ""
 url: "https://evanli.github.io/"  # 此处填写你的博客地址
 
