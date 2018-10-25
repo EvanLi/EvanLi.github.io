@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://evanli.github.io/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/about/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/archive/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/milestone/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/tags/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/blog/2018/10/24/vim-shortcuts/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/blog/2018/10/24/jupyter-notebook-shortcuts/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/blog/2018/08/08/inst-set-jdk-windows/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/blog/2018/07/24/use-mathjax-in-jekyll/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://evanli.github.io/blog/2015/03/02/how-to-write/</loc>
+  <lastmod>2018-10-24T15:35:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
