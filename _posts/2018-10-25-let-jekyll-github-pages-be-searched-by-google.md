@@ -10,6 +10,8 @@ description: 让Google搜索到用Jekyll搭建在Github Pages上的博客,提交
 
 # 让Google搜索到用Jekyll搭建在Github Pages上的博客
 
+---
+
 ## 1.查看是否被收录
 
 首先查看你的博客地址是否已经被Google收录，在Google的搜索栏中搜索：
@@ -67,6 +69,22 @@ description: 让Google搜索到用Jekyll搭建在Github Pages上的博客,提交
 
 如果没有什么问题的话，到这里就结束了，但是现在用Google还不能立即查到博客的内容，要等到搜索引擎下一次更新检索时才会有显示。
 
+## 4.手动提交Google抓取（可选）
+
+等待Google抓取所需时间比较长，可以利用Google抓取工具手动提交网址。（不是必须，等待Gooogle自行抓取也是可以的）
+
+还是刚刚的Google Webmaster，在左侧的“抓取”栏下可以找到“Google抓取工具”，输入你想要被抓取的网址链接，点击“抓取”，然后在下面选择“请求编入索引”，然后提交即可。
+
+![googlebot](/img/20181025/googlebot.jpg)
+
+![googlebot-index](/img/20181025/googlebot-index.jpg)
+
+此时再在Google的搜索栏中搜索：
+
+> site:https://xxxx.github.io
+
+应该就会有你刚刚提交上去的链接的结果了！也就大功告成了！
+
 ---
 
 **References:**
@@ -76,3 +94,5 @@ description: 让Google搜索到用Jekyll搭建在Github Pages上的博客,提交
 [2] <a href="http://gracegreat1.me/2017/11/%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E-Google-%E6%94%B6%E5%BD%95-%E4%BB%A5-Namecheap-%E4%B8%BA%E4%BE%8B/" target="_blank">为自己的博客添加搜索引擎（Google）收录（以Namecheap为例）</a>
 
 [3] <a href="https://www.google.com/webmasters/tools/home?hl=zh-CN" target="_blank">Google Search Console</a>
+
+[4] <a href="http://www.guxiaobei.com/submit-your-content-of-google.html" target="_blank">SEO技巧！如何最快时间让Google收录你的页面</a>
