@@ -88,4 +88,11 @@ friends: [
 
 
 # Gems
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+
+# Collections
+collections:
+  notes:
+    output: true
+  html:
+    output: true
