@@ -21,7 +21,7 @@ description: Windows系统jdk安装与环境变量配置
 
 选择Java SE 8u181版本
 
-![java-download1](/note/img/20180808/java-download1.jpg)
+![java-download1](/img/20180808/java-download1.jpg)
 
 点击DOWNLOAD，链接如下
 
@@ -31,27 +31,27 @@ description: Windows系统jdk安装与环境变量配置
 
 `Windows x64 202.73 MB   jdk-8u181-windows-x64.exe`
 
-![java-download2](/note/img/20180808/java-download2.jpg)
+![java-download2](/img/20180808/java-download2.jpg)
 
 下载完成如图：
 
-![java-download-file](/note/img/20180808/java-download-file.jpg "安装包")
+![java-download-file](/img/20180808/java-download-file.jpg "安装包")
 
 ### 1.2安装
 
 **双击安装：**
 
-![java-inst](/note/img/20180808/java-inst1.jpg "java install")
+![java-inst](/img/20180808/java-inst1.jpg "java install")
 
 依次点击下一步，会分别进行`jdk1.8.0`的安装和`jre1.8.0`的安装
 
-![java-inst](/note/img/20180808/java-inst2.jpg "java install")
-![java-inst](/note/img/20180808/java-inst3.jpg "java install")
+![java-inst](/img/20180808/java-inst2.jpg "java install")
+![java-inst](/img/20180808/java-inst3.jpg "java install")
 
 **安装完成如下:**
 
-![java-inst](/note/img/20180808/java-inst4.jpg "java finish")
-![java-inst](/note/img/20180808/java-inst5.jpg "java finish")
+![java-inst](/img/20180808/java-inst4.jpg "java finish")
+![java-inst](/img/20180808/java-inst5.jpg "java finish")
 
 默认安装路径为：
 
@@ -70,14 +70,14 @@ C:\Program Files\Java\jre1.8.0_181
 ## 2.配置环境变量
 
 在 我的电脑 右键选择 属性，点击 高级系统设置，找到环境变量
-![java-set1](/note/img/20180808/java-set1.jpg)
+![java-set1](/img/20180808/java-set1.jpg)
 
 ### 2.1创建系统变量JAVA_HOME
 
 **作用：**它指向jdk的安装目录，Eclipse/NetBeans/Tomcat等软件就是通过搜索JAVA_HOME变量来找到并使用安装好的jdk。
 
 **配置方法：**在系统变量里点击新建，变量名填写`JAVA_HOME`，变量值填写JDK的安装路径（根据自己的安装路径填写）,比如: `C:\Program Files\Java\jdk1.8.0_181`
-![java-set2-1-1](/note/img/20180808/java-set-javahome.jpg)
+![java-set2-1-1](/img/20180808/java-set-javahome.jpg)
 
 ### 2.2创建系统变量CLASSPATH
 
@@ -87,7 +87,7 @@ C:\Program Files\Java\jre1.8.0_181
 **配置方法：**在系统变量里点击新建，变量名填写`CLASSPATH`，变量值是
 `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 
-![java-set2-2-1](/note/img/20180808/java-set-classpath.jpg)
+![java-set2-2-1](/img/20180808/java-set-classpath.jpg)
 
 ### 2.3添加path环境变量
 
@@ -95,7 +95,7 @@ C:\Program Files\Java\jre1.8.0_181
 
 **配置方法：**在系统变量里找到Path变量，这是系统自带的，不用新建。双击Path，由于原来的变量值已经存在，故应在已有的变量后加上`;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin`。注意前面的分号。
 
-![java-set2-3-1](/note/img/20180808/java-set-path.jpg)
+![java-set2-3-1](/img/20180808/java-set-path.jpg)
 
 **注意：若为win10，则必须用jdk的绝对路径，而不能用%JAVA_HOME%，计算机识别不了(此时javac会识别不了）。**
 
@@ -109,22 +109,22 @@ C:\Program Files\Java\jre1.8.0_181
 
 如图所示：
 
-![java-set2-3-2](/note/img/20180808/java-set-path2.jpg)
+![java-set2-3-2](/img/20180808/java-set-path2.jpg)
 
 ## 3.测试环境
 检验是否配置成功 运行cmd 分别输入`java`，`javac`， `java -version` （`java` 和 `-version` 之间有空格）。
 
 ### 3.1 Java
 
-![java-test-java](/note/img/20180808/java-test-java.jpg)
+![java-test-java](/img/20180808/java-test-java.jpg)
 
 ### 3.2 Javac
 
-![java-test-javac](/note/img/20180808/java-test-javac.jpg)
+![java-test-javac](/img/20180808/java-test-javac.jpg)
 
 ### 3.3 Java –version
 
-![java-test-java-version](/note/img/20180808/java-test-java-version.jpg)
+![java-test-java-version](/img/20180808/java-test-java-version.jpg)
 
 若如图所示 显示版本信息 则说明安装和配置成功。
 
