@@ -88,7 +88,7 @@ friends: [
 
 
 # Gems
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-jupyter-notebook]
 
 # Collections
 collections:
