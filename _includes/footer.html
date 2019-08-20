@@ -101,22 +101,14 @@
     </div>
 </footer>
 
-<!-- jQuery -->
-<script src="{{ "/assets/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/assets/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/assets/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
 
-
-
 <!-- Highlight.js -->
-<script>
-    async("https://cdn.bootcss.com/highlight.js/9.15.9/highlight.min.js",function(){
-        hljs.initHighlightingOnLoad();
-    })
-</script>
-<!-- <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
-<link href="https://cdn.bootcss.com/highlight.js/9.15.9/styles/github.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/github.min.css" />
