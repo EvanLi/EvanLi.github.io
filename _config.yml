@@ -92,7 +92,5 @@ plugins: [jekyll-paginate, jekyll-jupyter-notebook]
 
 # Collections
 collections:
-  notes:
-    output: true
   html:
     output: true
