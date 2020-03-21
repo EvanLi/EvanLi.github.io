@@ -14,4 +14,6 @@ description: 各种机器学习分类算法的介绍与sklearn实现，包括逻
 
 ↓↓↓下方使用嵌入Jupyter Notebook，若无内容请稍等片刻，等待加载完成↓↓↓
 
+{::nomarkdown}
 {% jupyter_notebook "/notebook/2019-10-27-机器学习分类算法.ipynb" %}
+{:/nomarkdown}
