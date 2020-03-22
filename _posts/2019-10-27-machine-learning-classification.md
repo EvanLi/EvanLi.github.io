@@ -11,9 +11,5 @@ description: 各种机器学习分类算法的介绍与sklearn实现，包括逻
 各种机器学习分类算法的介绍与sklearn实现。
 
 包括：逻辑回归、朴素贝叶斯分类器、支持向量机、决策树、梯度提升决策树、随机森林、KNN算法等。
-
-↓↓↓下方使用嵌入Jupyter Notebook，若无内容请稍等片刻，等待加载完成↓↓↓
-
-{::nomarkdown}
-{% jupyter_notebook "/notebook/2019-10-27-机器学习分类算法.ipynb" %}
-{:/nomarkdown}
+<iframe   src="https://nbviewer.jupyter.org/github/EvanLi/EvanLi.github.io/blob/master/notebook/2019-10-27-machine-learning-classification.ipynb" width="100%" height="600px" frameborder="1" name="show-page" scrolling="auto">
+</iframe>
