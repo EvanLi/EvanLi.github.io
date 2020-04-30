@@ -5,6 +5,7 @@ date: 2018-08-08
 categories: blog
 tags: [java]
 description: Windows系统jdk安装与环境变量配置
+comments: True
 ---
 
 # Windows系统JDK安装与环境变量配置

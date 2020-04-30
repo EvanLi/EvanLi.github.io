@@ -5,6 +5,7 @@ date: 2015-3-02
 categories: blog
 tags: [建站]
 description: 文章金句。
+comments: False
 ---
 
 # 博客写作格式如下：
