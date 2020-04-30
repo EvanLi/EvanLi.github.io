@@ -5,6 +5,7 @@ date: 2018-10-25
 categories: blog
 tags: [jekyll,SEO]
 description: 让Google搜索到用Jekyll搭建在Github Pages上的博客,提交Google收录，并添加网站地图sitemap
+comments: True
 ---
 
 

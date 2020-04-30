@@ -5,7 +5,7 @@ date: 2019-10-27
 categories: blog
 tags: [jupyter,MachineLearning]
 description: 各种机器学习分类算法的介绍与sklearn实现，包括逻辑回归、朴素贝叶斯分类器、支持向量机、决策树、梯度提升决策树、随机森林、KNN算法等。
-
+comments: True
 ---
 
 各种机器学习分类算法的介绍与sklearn实现。

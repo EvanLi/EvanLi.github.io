@@ -5,6 +5,7 @@ date: 2018-7-24
 categories: blog
 tags: [latex,jekyll]
 description: Jekyll中使用MathJax
+comments: True
 ---
 
 

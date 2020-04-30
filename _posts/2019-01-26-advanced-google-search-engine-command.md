@@ -5,6 +5,7 @@ date: 2019-01-26
 categories: blog
 tags: [google,SEO]
 description: 谷歌搜索引擎高级搜索技巧，搜索引擎命令大全，用表格进行总结，附有完整示例及说明
+comments: True
 ---
 
 # 谷歌搜索引擎高级搜索、命令大全表格总结(完整示例及说明)

@@ -5,6 +5,7 @@ date: 2018-10-24
 categories: blog
 tags: [vim]
 description: Vim快捷键速查表
+comments: True
 ---
 
 # Vim 快捷键速查表
